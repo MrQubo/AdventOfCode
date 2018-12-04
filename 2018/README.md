@@ -2,5 +2,5 @@
 
 ## Every day in another language
 
-- day1: haskell
-- day2: clojure
+1. day1: haskell
+2. day2: clojure
