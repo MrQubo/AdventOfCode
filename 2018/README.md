@@ -2,3 +2,4 @@
 
 ## Every day in another language
 
+- day1: haskell
