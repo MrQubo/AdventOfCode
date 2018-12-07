@@ -4,3 +4,4 @@
 
 1. _haskell_
 2. _clojure_
+3. _rust_
