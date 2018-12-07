@@ -58,6 +58,10 @@
     (str/join (keep-indexed #(if (= %1 i) nil %2) s1))))
 
 
-(def input (parse (slurp "input")))
-(println (part1 input))
-(println (part2 input))
+(defn solve [input]
+  (let [words (parse input)]
+    (printf "part1: %d%npart2: %s" (part1 words) (part2 words))))
+
+
+(let [input (slurp "input")]
+  (solve input))
